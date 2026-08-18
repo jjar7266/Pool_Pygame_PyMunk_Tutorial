@@ -1,0 +1,53 @@
+# ------------------------------------------------------------
+# Python Cache Files
+# ------------------------------------------------------------
+# Python automatically generates bytecode cache files to speed up imports.
+# These should never be committed because they are machine‑specific.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# ------------------------------------------------------------
+# Virtual Environment (uv venv)
+# ------------------------------------------------------------
+# Your uv-created virtual environment lives inside .venv/
+# This folder contains installed packages and interpreter binaries.
+# It must NOT be committed to Git.
+.venv/
+
+
+# ------------------------------------------------------------
+# OS Junk Files
+# ------------------------------------------------------------
+# Windows and macOS generate hidden metadata files that clutter repos.
+# These are safe to ignore everywhere.
+Thumbs.db
+.DS_Store
+
+
+# ------------------------------------------------------------
+# Build / Distribution Artifacts
+# ------------------------------------------------------------
+# If you ever package this project (PyInstaller, uvx, etc),
+# these folders may appear. They should never be committed.
+dist/
+build/
+
+
+# ------------------------------------------------------------
+# Logs and Temporary Files
+# ------------------------------------------------------------
+# If you create logs or temporary files during development,
+# ignore them here to keep your repo clean.
+*.log
+*.tmp
+
+
+# ------------------------------------------------------------
+# Asset Cache (Optional)
+# ------------------------------------------------------------
+# If your assets folder ever contains generated or temporary files,
+# you can ignore them here. Safe to leave as-is for now.
+assets/*.tmp
