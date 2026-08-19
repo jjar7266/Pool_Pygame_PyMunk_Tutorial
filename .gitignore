@@ -51,3 +51,5 @@ build/
 # If your assets folder ever contains generated or temporary files,
 # you can ignore them here. Safe to leave as-is for now.
 assets/*.tmp
+
+*.txt
